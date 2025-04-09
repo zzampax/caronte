@@ -13,6 +13,13 @@ It reassembles TCP packets captured in pcap files to rebuild TCP connections, an
 The patterns can be defined as regex or using protocol specific rules.
 The connection flows are saved into a database and can be visualized with the web application. REST API are also provided.
 
+## Login 
+```
+username: admin
+password: password123
+```
+Everything in `.htpasswd`, if modified rebuild with `docker-compose up --build -d`.
+
 ## Features
 -   immediate installation with docker-compose
 -   no configuration file, settings can be changed via GUI or API
